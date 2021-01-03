@@ -1,0 +1,37 @@
+* {
+	font-family: 'Courier New';
+}
+
+a {
+	color: blue;
+	text-decoration: none;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+}
+
+h2, div, button {
+	text-align: center;
+	width: 100%;
+}
+
+p {
+	word-wrap: break-word;
+	border: 1px solid black;
+	color: #f3f3f3;
+	padding: .5em;
+}
+
+button {
+	height: 2.5em;
+}
+
+#max {
+	max-width: 800px;
+}
+
+#msg {
+	padding-top: 1em;
+}
