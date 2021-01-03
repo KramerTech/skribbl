@@ -1,4 +1,4 @@
-# Random custom word list generator for [skribbl.io](https://skribbl.io/)
+# Random custom [word list generator](https://kramertech.github.io/skribbl) for [skribbl.io](https://skribbl.io/)
 
 If the default skribbl.io list is getting a bit repetitive for you and your friends, visit [https://kramertech.github.io/skribbl](https://kramertech.github.io/skribbl) to get a randomized list of properly formatted (comma-separated) words to mix things up.
 
