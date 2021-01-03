@@ -5,8 +5,9 @@ var words;
 var len = 300;
 let url = new URL(window.location);
 let params = url.searchParams;
-if (!isNaN(+params.get("len"))) {
-	len = Math.max(1, +params.get("len"));
+let param = +params.get("len");
+if (!isNaN(param) && param > 0) {
+	len = param;
 } else {
 	// Set the query param if it doesn't already exist
 	// so user knows it's an option / how to use it
